@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        //Call my missingAssignments method in the main method
+        Scanner in = new Scanner(System.in);
+        int[] marks;
+        int singleMark;
+        String[] names;
+        String singleName;
     }
 
     public static void missingAssignments (int[] marks, String[] names){
