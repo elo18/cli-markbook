@@ -7,6 +7,16 @@ public class Main {
         int singleMark;
         String[] names;
         String singleName;
+        int numberOfStudents;
+
+        System.out.println("How many students are in the class? ");
+        numberOfStudents = in.nextInt();
+        marks = new int[numberOfStudents];
+
+        for (int i = 0; i < numberOfStudents; i++) {
+            
+        }
+
     }
 
     public static void missingAssignments (int[] marks, String[] names){
